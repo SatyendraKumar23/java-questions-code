@@ -7,9 +7,9 @@ public class containerwithmostwater {
         {
             for(int j=i+1;j<height.size();j++)
             {
-                int ht=Math.min(height.get(i),height.get(j));
+                int htt=Math.min(height.get(i),height.get(j));
                 int width=j-i;
-                int currwater=width*ht;
+                int currwater=width*htt;
 
                 maxwater=Math.max(currwater,maxwater);
 
